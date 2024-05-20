@@ -1,5 +1,7 @@
 import React from 'react'
-import { ChakraProvider, Container, Heading } from '@chakra-ui/react'
+import Container from 'react-bootstrap/Container';
+import { ChakraProvider,  Heading } from '@chakra-ui/react'
+
 
 const ItemListContainer = ({title}) => {
   return (
